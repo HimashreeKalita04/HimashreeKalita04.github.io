@@ -1,0 +1,24 @@
+title: Himashree Kalita
+author: Himashree Kalita
+tagline: "Product Manager — 0-to-1 regulated fintech & consumer growth"
+description: "Portfolio of Himashree Kalita — a product manager building 0-to-1 products across regulated fintech and consumer growth."
+email: kalitahimashree96@gmail.com
+phone: "+91 84748 85303"
+location: "Bengaluru, India"
+linkedin: "https://www.linkedin.com/in/himashree-kalita-072aab160/"
+url: "https://himashreekalita04.github.io"
+
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+collections:
+  case_studies:
+    output: true
+    permalink: /work/:name/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.summary | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">Himashree Kalita</a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Work</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="mailto:{{ site.email }}">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-name">Himashree Kalita</p>
+      <p class="footer-links">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <span>·</span>
+        <a href="{{ site.linkedin }}">LinkedIn</a>
+        <span>·</span>
+        <span>{{ site.location }}</span>
+      </p>
+      <p class="footer-note">Open to Senior PM / PM roles — Bengaluru, or abroad with visa sponsorship.</p>
+    </div>
+  </footer>
+</body>
+</html>

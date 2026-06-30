@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap">
+    {{ content }}
+  </div>
+</section>
+
+<section class="work wrap">
+  <h2 class="section-title">Regulated fintech, built 0-to-1</h2>
+  <div class="cards">
+    {% assign fintech = site.case_studies | where: "category", "fintech" | sort: "order" %}
+    {% for cs in fintech %}
+    <a class="card" href="{{ cs.url | relative_url }}">
+      <h3>{{ cs.title }}</h3>
+      {% if cs.subtitle %}<p class="card-sub">{{ cs.subtitle }}</p>{% endif %}
+      <p class="card-summary">{{ cs.summary }}</p>
+      <span class="card-more">Read case study →</span>
+    </a>
+    {% endfor %}
+  </div>
+
+  <h2 class="section-title">Consumer growth &amp; monetization</h2>
+  <div class="cards">
+    {% assign consumer = site.case_studies | where: "category", "consumer" | sort: "order" %}
+    {% for cs in consumer %}
+    <a class="card" href="{{ cs.url | relative_url }}">
+      <h3>{{ cs.title }}</h3>
+      {% if cs.subtitle %}<p class="card-sub">{{ cs.subtitle }}</p>{% endif %}
+      <p class="card-summary">{{ cs.summary }}</p>
+      <span class="card-more">Read case study →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>

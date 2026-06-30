@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="case wrap">
+  <a class="back" href="{{ '/' | relative_url }}">← All work</a>
+  {% if page.category_label %}<p class="eyebrow">{{ page.category_label }}</p>{% endif %}
+  <h1 class="case-title">{{ page.title }}</h1>
+  {% if page.subtitle %}<p class="case-subtitle">{{ page.subtitle }}</p>{% endif %}
+  {% if page.meta %}<p class="case-meta">{{ page.meta }}</p>{% endif %}
+  <div class="content">
+    {{ content }}
+  </div>
+  <a class="back back-bottom" href="{{ '/' | relative_url }}">← All work</a>
+</article>
