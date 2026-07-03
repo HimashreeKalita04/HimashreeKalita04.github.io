@@ -6,7 +6,7 @@ category: fintech
 category_label: "Regulated fintech, built 0-to-1"
 order: 1
 summary: "A net-new, regulator-compliant MF transaction system that drove ₹40 Cr+ in its first quarter and replaced a multi-day, third-party-dependent flow."
-meta: "smallcase · Product Manager (Pod Lead), Mutual Funds · Oct 2024 – Present"
+meta: "smallcase · Product Manager, Mutual Funds · Oct 2024 – Present"
 ---
 
 > **TL;DR** — I led product for smallcase's transition into a SEBI Category-1 Execution-Only Platform: a net-new mutual-fund transaction system built from scratch, with direct RTA integrations replacing a third-party dependency. It drove **₹40 Cr+ in buy orders in its first quarter**, removed multi-day settlement delays, and opened a new transaction-revenue line.
@@ -50,8 +50,7 @@ This is a regulated 0-to-1: every flow has to satisfy SEBI rules, integrate dire
 - The biggest conversion unlock (removing the CAN) came from questioning an assumption everyone treated as fixed ("you need MFU"). The 0-to-1 mandate was permission to delete a dependency, not just rebuild on top of it.
 - Owning the rails changed the *economics*, not just the UX — a reminder that platform-level product decisions are business-model decisions.
 
-<details markdown="1">
-<summary>Stack & ecosystem touched</summary>
-
-RTAs (CAMS, KFintech), AMCs, MFU/CAN, CAMSPay (UPI / netbanking / eNACH / UPI Autopay), SEBI EOP framework, KYC & nominee infra. Tools: SQL, MongoDB, Amplitude/Mixpanel for funnels.
+<details>
+<summary><strong>Stack &amp; ecosystem touched</strong></summary>
+<p>RTAs (CAMS, KFintech), AMCs, MFU/CAN, CAMSPay (UPI / netbanking / eNACH / UPI Autopay), SEBI EOP framework, KYC &amp; nominee infra. Tools: SQL, MongoDB, Amplitude/Mixpanel for funnels.</p>
 </details>

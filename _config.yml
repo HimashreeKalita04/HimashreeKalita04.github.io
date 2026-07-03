@@ -9,8 +9,6 @@ linkedin: "https://www.linkedin.com/in/himashree-kalita-072aab160/"
 url: "https://himashreekalita04.github.io"
 
 markdown: kramdown
-kramdown:
-  parse_block_html: true
 
 collections:
   case_studies:

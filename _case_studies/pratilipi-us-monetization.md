@@ -9,7 +9,7 @@ summary: "Replaced $10 flat subscriptions with a pay-as-you-go coin model — ~2
 meta: "Pratilipi · Product Manager (Pod Lead) · 2022–2023"
 ---
 
-> **TL;DR** — Launching in the US, I replaced a flat $10/month subscription with a **pay-as-you-go coin model** — which **roughly doubled revenue per series (~$10 → ~$20)**, improved ROAS, and paid back ~30% in month zero. On the acquisition side, I cut **CAC from $25 → $10** by finding the content that converts.
+> **TL;DR** — Launching in the US, I replaced a flat $10/month subscription with a **pay-as-you-go coin model** — which **roughly doubled revenue per series (~$10 → ~$20)** and improved ROAS. On the acquisition side, I cut **CAC from $25 → $10** by finding the content that converts — recovering **~30% of marketing spend within the first month**.
 
 ## Context
 
@@ -26,16 +26,14 @@ Pratilipi expanded into US / global English markets. The Indian playbook (low AR
 - **Re-architected pricing from subscription to a coin-based pay-as-you-go model**, so revenue scaled with consumption. The insight: a 40-chapter series bought in coins yielded **~$20 vs. the $10 flat sub** — i.e., *more chapters = more revenue per user*, which reframed both pricing and content strategy.
 - **Ran the paid-acquisition engine across Meta and Google**, found Meta worked best for us, and **identified the content genres** that drove both cheap installs and strong in-app engagement.
 - **Closed the loop between acquisition and content** — doubled down on the winning genres, extending series length and generating more in those genres with AI + a writers team, which compounded the CAC win.
-- **Added free trials** across these geographies, lifting paying users **~10%**, and shipped supporting monetization surfaces (iOS coupons, in-app ads).
 
 ## Impact
 
 | Metric | Result |
 |---|---|
 | Revenue per 40-chapter series | **~$10 → ~$20** |
-| Month-0 payback | **~30%** |
 | Paid-acquisition CAC | **$25 → $10** |
-| Paying users (from free trials) | **~+10%** |
+| Marketing spend recovered in month 0 | **~30%** |
 | ROAS | **Improved** (higher pay-per-user via coins) |
 
 ## What I learned

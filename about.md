@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm **Himashree Kalita** — a product manager with 7 years across fintech, consumer internet, and growth, 5 of them in product. I'm currently Pod Lead for Mutual Funds at **smallcase**, where I led the build of a SEBI-regulated investment platform from zero to one.
+I'm **Himashree Kalita** — a product manager with 7 years across fintech, consumer internet, and growth, 5 of them in product. I currently lead product for the Mutual Funds pod at **smallcase**, where I led the build of a SEBI-regulated investment platform from zero to one.
 
 I'm drawn to two kinds of hard problems, and I've spent my career bouncing between them on purpose:
 
