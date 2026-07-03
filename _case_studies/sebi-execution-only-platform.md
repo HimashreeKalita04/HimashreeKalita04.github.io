@@ -49,8 +49,3 @@ This is a regulated 0-to-1: every flow has to satisfy SEBI rules, integrate dire
 - In regulated products, **correctness is the feature.** The product discipline is front-loading compliance and edge cases into the design, not the backlog — and being able to say "no, not yet" until the money flows are provably right.
 - The biggest conversion unlock (removing the CAN) came from questioning an assumption everyone treated as fixed ("you need MFU"). The 0-to-1 mandate was permission to delete a dependency, not just rebuild on top of it.
 - Owning the rails changed the *economics*, not just the UX — a reminder that platform-level product decisions are business-model decisions.
-
-<details>
-<summary><strong>Stack &amp; ecosystem touched</strong></summary>
-<p>RTAs (CAMS, KFintech), AMCs, MFU/CAN, CAMSPay (UPI / netbanking / eNACH / UPI Autopay), SEBI EOP framework, KYC &amp; nominee infra. Tools: SQL, MongoDB, Amplitude/Mixpanel for funnels.</p>
-</details>

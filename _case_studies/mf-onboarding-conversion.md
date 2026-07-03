@@ -9,7 +9,7 @@ summary: "Tore apart a multi-provider mutual-fund onboarding funnel and nearly d
 meta: "smallcase · Product Manager, Mutual Funds · 2024–2025"
 ---
 
-> **TL;DR** — I rebuilt smallcase's mutual-fund onboarding funnel — KYC, nominee, and bank verification — and **nearly doubled completion from 12% to 22%**. Separately, I found that a large slice of users were dropping *before* MF onboarding because they assumed it required a demat account — and unlocked them with a **+5% first-purchase/activation** uplift.
+> **TL;DR** — I rebuilt smallcase's mutual-fund onboarding funnel — KYC, nominee, and bank verification — and **nearly doubled completion from 12% to 22%** through step-by-step instrumentation and iterative fixes across a chain of third-party providers.
 
 ## Context
 
@@ -19,24 +19,23 @@ Before a user can make their first mutual-fund investment on smallcase, they hav
 
 - The funnel was a sequence of third-party black boxes (KYC, penny-drop bank checks, nominee capture). When one failed, the user just... left.
 - No clear instrumentation of *where* in the multi-provider chain users were dropping.
-- Separately, a meaningful slice of new users (**~25%, non-demat users**) hesitated at MF onboarding because they assumed it required opening a demat account — so they never engaged with the MF flow at all.
+- Every step was treated as equally mandatory, even ones that didn't need to block a first investment.
 
 ## What I did
 
 - **Instrumented the funnel step-by-step** to find the real drop-off points rather than guessing, then attacked them in priority order.
 - **Re-architected verification across providers** — integrating and orchestrating **Signzy, Juspay, MFCentral, NDML, and Setu** — so each step had the most reliable path and graceful fallbacks instead of dead ends.
-- **Optimized KYC, nominee, and bank-verification UX** — reducing fields, fixing failure messaging, and removing steps that didn't need to block first investment. *(This is what drove 12% → 22%.)*
-- **Unlocked the non-demat segment (~25% of new users)** — identified that these users were hesitating because MF onboarding felt tied to a demat account, then **integrated MF onboarding with smallcase's general onboarding** so they could complete it *without* a demat account. Led GTM across Marketing, CX, Ops, and Partnerships to bring them through. *(This drove the +5% activation uplift.)*
+- **Optimized KYC, nominee, and bank-verification UX** — reducing fields, fixing failure messaging, and removing steps that didn't need to block first investment.
+- **Iterated release by release**, re-checking the funnel after each change so improvements compounded rather than shifting the drop-off elsewhere.
 
 ## Impact
 
 | Metric | Result |
 |---|---|
 | MF onboarding conversion | **12% → 22%** |
-| First-purchase / activation (from unlocking non-demat users) | **+5%** |
 
 ## What I learned
 
 - When your funnel is a chain of third-party services, **your real product surface is the orchestration and the failure states** — not the happy path. Most of the 10-point lift came from handling failure better, not from a prettier UI.
-- **The biggest unlock sat upstream of the funnel I was asked to fix.** The non-demat win came not from the MF flow itself but from removing a *perceived* prerequisite — a demat account — by wiring MF onboarding into the general onboarding path.
-- "These users won't convert" is often "we never designed for them." An entire ~25% segment was bouncing on an assumption no one had questioned.
+- **Instrument before you optimize.** The largest drop-offs weren't where the team assumed they were — only step-level data made the priority order obvious.
+- In regulated flows you can't delete steps, so the craft is in making mandatory steps *survivable* — fewer fields, better fallbacks, clearer recovery.
