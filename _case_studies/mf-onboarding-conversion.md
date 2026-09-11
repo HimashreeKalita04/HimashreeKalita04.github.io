@@ -1,11 +1,11 @@
 ---
 layout: case_study
-title: "MF Onboarding Conversion: 12% → 22%"
+title: "MF Onboarding Conversion: 12% → 26%"
 subtitle: "Rebuilding a KYC, nominee & bank-verification funnel"
 category: fintech
 category_label: "Regulated fintech, built 0-to-1"
 order: 2
-summary: "Tore apart a multi-provider mutual-fund onboarding funnel and nearly doubled completion, from 12% to 22%."
+summary: "Tore apart a multi-provider mutual-fund onboarding funnel and more than doubled completion, from 12% to 26%."
 meta: "smallcase · Product Manager, Mutual Funds · 2024–2025"
 ---
 
@@ -32,10 +32,10 @@ Before a user can make their first mutual-fund investment on smallcase, they hav
 
 | Metric | Result |
 |---|---|
-| MF onboarding conversion | **12% → 22%** |
+| MF onboarding conversion | **12% → 26%** |
 
 ## What I learned
 
-- When your funnel is a chain of third-party services, **your real product surface is the orchestration and the failure states** — not the happy path. Most of the 10-point lift came from handling failure better, not from a prettier UI.
+- When your funnel is a chain of third-party services, **your real product surface is the orchestration and the failure states** — not the happy path. Most of the 14-point lift came from handling failure better, not from a prettier UI.
 - **Instrument before you optimize.** The largest drop-offs weren't where the team assumed they were — only step-level data made the priority order obvious.
 - In regulated flows you can't delete steps, so the craft is in making mandatory steps *survivable* — fewer fields, better fallbacks, clearer recovery.
