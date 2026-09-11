@@ -9,7 +9,7 @@ summary: "Tore apart a multi-provider mutual-fund onboarding funnel and more tha
 meta: "smallcase · Product Manager, Mutual Funds · 2024–2025"
 ---
 
-> **TL;DR** — I rebuilt smallcase's mutual-fund onboarding funnel — KYC, nominee, and bank verification — and **nearly doubled completion from 12% to 22%** through step-by-step instrumentation and iterative fixes across a chain of third-party providers.
+> **TL;DR** — I rebuilt smallcase's mutual-fund onboarding funnel — KYC, nominee, and bank verification — and **nearly doubled completion from 12% to 26%** through step-by-step instrumentation and iterative fixes across a chain of third-party providers.
 
 ## Context
 
