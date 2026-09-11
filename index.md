@@ -17,7 +17,7 @@ I'm a product manager with 7 years across fintech, consumer internet, and growth
 |---|---|
 | **₹40 Cr+** | MF buy orders in Q1 of a 0-to-1 regulated platform I led |
 | **12% → 26%** | mutual-fund onboarding conversion lift |
-| **220%** | growth in website-led acquisition at Pratilipi |
+| **1800%** | growth in website-led acquisition at Pratilipi |
 | **₹45 → ₹20** | cost-per-install, halved |
 | **$25 → $10** | US paid-acquisition CAC, cut 60% |
 | **2×** | ARPU after a subscription → pay-as-you-go redesign |
