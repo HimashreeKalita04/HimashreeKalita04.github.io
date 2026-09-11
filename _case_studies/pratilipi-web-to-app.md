@@ -5,11 +5,11 @@ subtitle: "Pratilipi — turning the website into a growth channel"
 category: consumer
 category_label: "Consumer growth & monetization"
 order: 1
-summary: "Grew monthly users ~35k → 90–100k (+220%), halved CPI, and acquired users who retained better than the app's own."
+summary: "Grew monthly users ~35k → 90–100k (+180%), halved CPI, and acquired users who retained better than the app's own."
 meta: "Pratilipi · Product Manager (Pod Lead), Engagement & New Initiatives · Feb 2022 – Dec 2023"
 ---
 
-> **TL;DR** — At a mature consumer app where the obvious growth levers were spent, I turned the website into a primary acquisition channel — **growing monthly users ~35k → 90–100k (+220%)**, halving CPI from **₹45 → ₹20**, and acquiring users who *retained better* than the app's own (+10pt D1, 5% premium conversion in 7 days).
+> **TL;DR** — At a mature consumer app where the obvious growth levers were spent, I turned the website into a primary acquisition channel — **growing monthly users ~35k → 90–100k (+180%)**, halving CPI from **₹45 → ₹20**, and acquiring users who *retained better* than the app's own (+10pt D1, 5% premium conversion in 7 days).
 
 ## Context
 
@@ -31,7 +31,7 @@ Pratilipi is a vernacular storytelling platform — millions of readers, a large
 
 | Metric | Result |
 |---|---|
-| Monthly users | **~35k → 90–100k (+220%)** |
+| Monthly users | **~35k → 90–100k (+180%)** |
 | Cost per install | **₹45 → ₹20** |
 | D1 retention of web-acquired users | **+10 pts vs. other new users** |
 | Premium conversion (web-acquired, within 7 days) | **5%** |
